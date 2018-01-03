@@ -1,9 +1,89 @@
-<!doctype html>
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>oeoeoeo</title>
+<link rel="stylesheet" type="text/css" href=style.css>
+<script language="javascript">
+  <!--
+
+  function modifie(evt) {
+    vert = Math.floor((evt.layerY/window.innerHeight)*255);
+    bleu = Math.floor((evt.layerX/window.innerWidth)*255);
+    
+    carac3.style.backgroundColor = "rgb("+vert+", 153, "+bleu+")";
+  }
+
+  
+  window.captureEvents(Event.MOUSEMOVE);
+
+  
+  window.onmousemove=modifie;
+
+  
+</script>    
+</head>
+<body>
+    <script type="text/javascript" language="JavaScript">
+      function hamburger_click()
+        {
+        var hamburgerElement = document.getElementById("hamburger");
+        var menuElement = document.getElementById("menu");
+ 
+        hamburgerElement.style.display = "none";
+            menuElement.style.display = "block";
+        }
+    </script>
+    <header>
+        <img src="https://lemondedelarealitevirtuelle.com/photos-realite-virtuelle/logo-monde-de-la-realite-virtuelle.png">
+        <div id="hamburger">
+            <a href="javascript:hamburger_click();">
+            <img id="hamburger-img" src="588a64e7d06f6719692a2d11.png">
+            </a>
+        </div>
+        <nav id="menu">
+            <ul><a href="#">Description</a></ul>
+            <ul><a href="#">Site</a></ul>
+            <ul><a href="#">Contact</a></ul>
+        </nav>
+    </header>
+        <div class="contenu">
+            <div class="casque">
+                <img src="r%C3%A9alit%C3%A9_virtuelle_une.jpg">
+            </div>
+            <div class="venez">
+                <p> Tentez votre chance et essayez de gagner notre toute nouvelle invention en participant à notre jeu concours.</p>
+            </div>
+        </div>
+    <div class="conteneur2">
+        <div class="carac1">
+            <article>A l'aide de notre nouveau casque vous allez pouvoir accomplir de grande chose dans vos jeux vidéos. </article>
+            <img id="icon" src="png/002-ar-glasses.png">
+        </div>
+        <div class="carac2">
+            <p>Après avoir essayé notre casque vous allez vous retrouver avec le cerveau sans dessus dessous.</p>
+            <img id="icon" src="png/003-rotation.png">
+        </div>
+        <div id="carac3">
+            <p>Mais bien sur, on vous assure de ne pas avoir d'effets secondaires après être entré dans la réalité virtuelle.
+            </p>
+            <img id="icon" src="png/001-people.png">
+        </div>
         
-    </head>
-    <body>
-        fesfsfs
-    </body>
+        
+    </div>
+     <div class="conteneur3">
+            <div class="participer">
+                <form > 
+                    <input type="text" name="prenom" value="ton prenom">
+                    <input type="text" name="nom" value="ton nom">
+                    <input type="text" name="mail" value="ton adresse mail">
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+        </div>
+       
+   
+   
+</body>
 </html>
